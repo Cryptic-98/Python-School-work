@@ -1,0 +1,15 @@
+Primitive Data Types - strings, Integers, Floats, Characters, Boolean, Doubles. (describes the simplest data types)
+Complex Data Types - Python Data Structures that are used to store and manipulate data.
+Examples: Lists, Tuples, Sets and Dictionaries.
+Note: There are no common arrays in python.
+List and Tuples
+List - a data structure that is mutable, that is ordered, that is also heterogeneous
+- mutable - once a list has been created it can be adjusted meaning you can expand or shrink it by adding or removing items.
+- ordered - a list is indexed from zero going up.
+- heterogeneous - a list can accommodate different data types. A list can contain integers, strings or floats.
+- a list also allows duplicates.
+- list uses square brackets
+- to add elements to a list we either use append or insert.
+- the append method always inserts the new value at the end of the list.
+- if you want to insert at a specific index, you have to use the method: insert.
+To navigate through the elements of a list, we use loops.
