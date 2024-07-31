@@ -24,7 +24,7 @@ for number in list2:
     if number % 2 == 0:
         count += 1
 print(count)
-"""
+
 # Write a program to count the maximum and minimum value in the list:
 mylist2 = [37, 67, 23, 89, 45]
 maximum = mylist2[0]
@@ -35,3 +35,8 @@ for number in mylist2:
     if number < minimum:
         minimum = number
 print(f'The maximum number is {maximum} and the minimum number is {minimum}')
+"""
+# Slicing list [2, 4, 7, 9, 10, 67, 4]
+newlist = [2, 4, 7, 9, 10, 67, 4]
+print(newlist[0:3])
+print(newlist[1:5])
