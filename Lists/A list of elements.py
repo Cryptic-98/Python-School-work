@@ -35,8 +35,41 @@ for number in mylist2:
     if number < minimum:
         minimum = number
 print(f'The maximum number is {maximum} and the minimum number is {minimum}')
-"""
+
 # Slicing list [2, 4, 7, 9, 10, 67, 4]
 newlist = [2, 4, 7, 9, 10, 67, 4]
+print(newlist)
 print(newlist[0:3])
 print(newlist[1:5])
+print(newlist[::-1])
+
+myTuple = (1, 8, 'Royal', 'Peter', 78.9, True)
+print(myTuple)
+print(len(myTuple))
+print(myTuple)
+# use a loop to print the elements of a tuple
+for values in myTuple:
+    print(values)
+# finding the maximum and minimum number in (6, 9, 4, 78, 100, 56, 45)
+newTuple = (6, 9, 4, 78, 100, 56, 45)
+maxMIn = newTuple[0]
+minMax = newTuple[0]
+for value in newTuple:
+    if value < maxMIn:
+        maxMIn = value
+    if value > minMax:
+        minMax = value
+print(f'The minimum value is {maxMIn} and the maximum value is {minMax}')
+
+# concatenating tuples
+tuple1 = (8, 9, 10)
+tuple2 = ('Mangoes', 'Bananas', 'Pineapples')
+tuple3 = tuple1 + tuple2
+print(tuple3)
+tuple2 = tuple1 + tuple2
+print(tuple2)
+"""
+# converting a list into a tuple
+tupList = [1, 2, 3, 4]
+newTup = tuple(tupList)
+print(newTup)

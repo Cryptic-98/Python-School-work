@@ -1,0 +1,7 @@
+Dictionaries are a collection of items, just like lists and tuples.
+- dictionaries contain key-value pairs
+It is possible to expand a dictionary
+It is possible to change the the value
+- but it is not possible to change the key pair
+- we can have different data types in a dictionary
+- a dictionary uses {curly brackets}

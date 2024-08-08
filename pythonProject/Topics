@@ -14,3 +14,11 @@ List - a data structure that is mutable, that is ordered, that is also heterogen
 - if you want to insert at a specific index, you have to use the method: insert.
 To navigate through the elements of a list, we use loops.
 Slicing returns a range of characters or elements from a list
+Tuple - a collection of elements that are ordered.
+features:
+1. NOT mutable - meaning that you cannot change it once it has been created. It cannot be shrunk or expanded.
+2. Ordered - meaning that it is indexed (from zero going up)
+3. Allows duplicates
+Two ways to create a tuple:
+1. Using a tuple constructor
+2. Using dynamic allocation
