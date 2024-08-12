@@ -40,6 +40,7 @@ product_prices = {
     'Computers': 3500
 }
 
+
 def main():
     print('Welcome to your Simple Inventory System')
     userChoice = input('Enter action: ').strip().lower()
@@ -53,10 +54,11 @@ def main():
         print('Invalid Entry. Please choose the following options: \n [1, 2, 3, 4, q]')
 
 
-
 def view_product():
     for product, quantity in product_quantities.items():
         print(f'{product}: \nNumber of items: {quantity}')
+
+
 def add_product():
     newProduct = input('Enter new product: ').strip().capitalize()
     quantity = input('Enter quantity: ')

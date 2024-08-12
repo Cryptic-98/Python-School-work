@@ -12,3 +12,6 @@ def sort_by_second_element(myTuple):
 
 sorted_list = sort_by_second_element(myTuple)
 print(sorted_list)
+
+# change the order not the positions
+# lambda
