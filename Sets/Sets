@@ -1,0 +1,13 @@
+Sets - a collection of unique elements, meaning the elements within a set cannot be duplicated
+- a set is mutable
+- sets are not indexed
+- sets are unordered
+
+Sets operations
+- Union of a set - a combination of all elements of different sets.
+- Intersection of sets - the common elements among the sets
+- Set Difference - for example you have have set A and set B where the difference between the two is the
+                   elements that are found in set A but not in set B.
+- Symmetric difference - returns the elements that are in either Set A or in Set B but not both.
+
+Sets also use curly brackets ({}).
