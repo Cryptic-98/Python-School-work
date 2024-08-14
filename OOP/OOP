@@ -1,0 +1,14 @@
+OOP - Object Oriented Programming is a programming paradigm that is based on the concept of objects.
+
+Object - an instance of a class./ a blueprint to which classes are created.
+- an object has an identity (name).
+- an object has a stat. For example: for an object such as a rectangle its stat would be its length and
+  width.
+- an object also has a behaviour.
+
+Classes - a collection of objects, methods, variables or properties.
+THEREFORE a class is a data type.
+- variables of a class are called member variables.
+- functions of a class are called member methods.
+
+The process of destroying objects after they are used is called automatic garbage
