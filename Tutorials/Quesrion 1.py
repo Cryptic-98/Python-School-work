@@ -1,4 +1,4 @@
-myList = [5, 8, 200, 65, 155]
+myList = [5, 8, 200, 52, 155]
 second_largest = myList[0]
 for x in myList:
     for y in myList:

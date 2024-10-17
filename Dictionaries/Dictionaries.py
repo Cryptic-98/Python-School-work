@@ -1,5 +1,9 @@
 # creating a dictionary
-country_capitals = {'South Africa': 'Pretoria', 'New Zealand': 'Auckland', 'Zambia': 'Lusaka'}
+country_capitals = {
+    'South Africa': 'Pretoria',
+    'New Zealand': 'Auckland',
+    'Zambia': 'Lusaka'
+}
 # in this case South Africa is the key, and Pretoria is the value. ↑
 # accessing elements of a dictionary ↓
 print(country_capitals)
@@ -16,17 +20,6 @@ for country in country_capitals:
 for capital in country_capitals:
     print(country_capitals[capital])
 
-"""
-Practice Question: 
-Your building a simple inventory management
-system. Create a dictionary where keys are
-product names and values are corresponding
-quantities. Write functions to :
-Add new products to the inventory
-Update product quantities
-Calculate the total value of inventory based
-on products prices stored in another dictionary
-"""
 product_quantities = {
     'Vaseline': 10,
     'Cereal': 5,

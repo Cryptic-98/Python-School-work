@@ -11,4 +11,10 @@ THEREFORE a class is a data type.
 - variables of a class are called member variables.
 - functions of a class are called member methods.
 
-The process of destroying objects after they are used is called automatic garbage
+The process of destroying objects after they are used is called automatic garbage.
+
+Pillars of objects:
+- inheritance
+- encapsulation
+- polymorphism
+- abstraction

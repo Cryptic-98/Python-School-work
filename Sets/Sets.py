@@ -27,11 +27,17 @@ for value in mySet:
     if value < maxValue:
         maxValue = value
     if value > minValue:
-        minValue = value
+        minValue = value 
 print(f'Maximum value: {maxValue} and minimum value: {minValue}')
 """
 # unionizing sets
-setA = {54, 76, 23, 78, 12}
-setB = {45, 98, 56, 18, 20}
+setA = {54, 76, 23, 78, 18}
+setB = {45, 98, 54, 18, 20}
 setC = setA.union(setB)
 print(setC)
+# intersection of sets
+setD = setA.intersection(setB)
+print(setD)
+#print(help(setC))
+dicti = {'r' : 000}
+#print(help(dicti))

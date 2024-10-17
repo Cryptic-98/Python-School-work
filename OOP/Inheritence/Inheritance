@@ -1,0 +1,19 @@
+Inheritance - when one class acquires properties of another class
+Purpose:
+- code/object re-usability
+- information hiding
+Terms:
+- derived/child - it is a class that acquires properties of another class.
+- parent/base/super class - a class that is inherited from.
+- inheritance possess a kind of relationship between parent and child called "IS_A" relationship
+Ex.
+John is a man
+A dog is a mammal
+
+4 types of inheritance:
+1. Single Inheritance - when one child inherit from a single parent.
+2. Multiple Inheritance. - when one child inherits from multiple parents.
+3. Hierarchical Inheritance. - when multiple children inherit from a single parents.
+4. Multilevel Inheritance. - when one child inherits from an immediate parent and the parent inherits
+                             from a grandparent and so forth.
+(5. Hybrid Inheritance - a combination of two or more types of inheritance.)

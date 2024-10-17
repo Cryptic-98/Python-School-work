@@ -1,0 +1,16 @@
+* Constructors - called each and every time an object is created. It is called to initialize an object.
+- constructors are a special kind of method.
+- they have the same name as the class name.
+2 types of constructors:
+- default constructors
+- parameterized constructor
+* Access modifiers - determines who can access a field (variables), methods or any members of a class.
+3 main types of access modifiers:
+- Private - members that are declared private are only accessible within the (same) class.
+- Protected - members that are declared protected are only accessible by classes inheriting from each
+              other.
+- Public - any member declared public is available to anyone.
+* Properties (getters and setters):
+- properties give a read or write property to fields or methods.
+- getters gives the read only property.
+- setters gives the write only property. void methods - they don't return anything.

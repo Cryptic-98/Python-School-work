@@ -96,7 +96,7 @@ def total_value():
 
 def main():
     while True:
-        print('\nWelcome to your Simple Inventory System')
+        print('\n\nWelcome to your Simple Inventory System')
         print('1. View Products')
         print('2. Add a product')
         print('3. Update a product')

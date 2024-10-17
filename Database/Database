@@ -1,0 +1,19 @@
+Database - Is a collection of organised data that is stored and managed to facilitate easy easy access, retrieval and modification
+Relation database - a collection of data stored in rows and columns, 1. MS Access, mysql, sql server, postgreSQL, SQLite
+    1. Records - a database row is called a record, which is a complete set of related data items stored in a table within a
+                 database.
+    2. Field - a column or attribute that represents a specific category of data.
+    3. Primary key - a unique value that identifies a record. So in a table for students, the unique identifier can be the
+                     student number or identity number.
+    4. Foreign key - a field in one table that links the primary key in  another table, creating a relationship between two
+                     tables.
+SQL = a language - which stands for structured query language.
+DML - Data Manipulation Language
+- the 3 common commands of DML are:
+    1. Insert - this is used to create a record
+    2. Update - is used to delete records.
+    3. Delete - is used to delete records.
+    4. Select - it is used to retrieve certain records from one or more tables
+DDL - Data Definition Langauge
+1. Create - used to create tables, view tables.
+2. Alter - used to modify an existing table

@@ -1,0 +1,18 @@
+GUI - Graphical User Interface
+- tkinter - is a fastest abd easiest way to create GUI application in Python.
+steps to create GUI
+1. import the tkinter module. tkinter
+2. create the main window (container) - the main window serves as the container for all GUI elements.
+3. add the widgets (buttons, text fields, radio buttons, etc.) to the main window. You can add any
+   number of widgets.
+4. apply event triggers to the widgets. You can attach event triggers to the widgets to defines how
+   they respond to user interactions.
+- events define a state change of an object.
+
+there are two main methods that are used when creating Python application with GUI.
+1. Tk() - to create a main window, tkinter offers a method: Tk(screenName, baseName, className).
+   to change the name of the window, you can change the class name.
+- for GUI to be visible, you need to have the Tk() method, otherwise it will not be visible.
+2. mainloop() - used when your application is ready to run. mainloop() is an infinite loop used to
+   run the application. waits for an event to occur and process the event as long as the window is not
+   closed.
