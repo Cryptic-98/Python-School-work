@@ -50,3 +50,5 @@ def register():
         messagebox.showinfo("Confirmation", "Registration Successful")
 
 Button(window, text='Register', command=register).grid(row=4)
+
+window.mainloop()
