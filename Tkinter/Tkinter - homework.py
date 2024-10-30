@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 window = Tk()
 window.title('Registration Form')
-window.geometry('720x360')
+window.geometry('460x520')
 
 name = Entry(window)
 Label(window, text='Enter name: ').grid(row=0)
